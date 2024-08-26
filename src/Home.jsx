@@ -13,7 +13,8 @@ function Home() {
   }
     
   return (
-      <div>
+    <div className='row'>
+      <div className='col-6'>
           <h2>CRUD App</h2>
           <Link to="/create" type="Link " className="btn btn-primary my-3">Create New User</Link>
           <table className="table table-bordered border-primary">
@@ -39,6 +40,8 @@ function Home() {
     ))}
   </tbody>
 </table>
+        
+      </div>
     </div>
   )
 }
